@@ -4,12 +4,11 @@
 @theme {
 
     /* Cores personalizadas */
-    --color-*: initial;
 
     --color-blue-custom: #3898ef;
     --color-black-custom: #000000;
     --color-gray-dark: #1b1b1b;
-    --color-white-custom:#fff;
+    --color-white-custom: #fff;
 
     --color-green-dark-custom: #226214;
     --color-green-light-custom: #43cc25;
@@ -17,5 +16,11 @@
     /* Fontes personalizadas */
     --font-Darker: "Darker Grotesque", sans-serif;
     --font-Manrope: "Manrope", sans-serif;
+
+    /* Gradiente */
+    --background-image-green-gradient: linear-gradient(180deg,
+            #226214,
+            #43cc25);
+
 
 }

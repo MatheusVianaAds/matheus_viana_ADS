@@ -5,12 +5,10 @@ const Button = ({ children, onClick, className = "" }) => {
     <button
       onClick={onClick}
       className={`
-        bg-gradient-to-r 
-        from-green-600 
-        to-green-500 
+        bg-green-gradient
         hover:from-green-500 
         hover:to-green-400
-        text-white 
+        text-white-custom 
         font-semibold 
         px-8 
         py-4 
