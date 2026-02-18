@@ -19,7 +19,7 @@ const HeroBanner = () => {
       >
         {/* TEXTO */}
         <div className="max-w-xl text-center md:text-left">
-          
+
           <Typography as="h1">
             <span className="text-blue-500">
               Pare de viver na incerteza no fim do mês,
@@ -33,8 +33,18 @@ const HeroBanner = () => {
             menor custo possível.
           </Typography>
 
+
           <div className="mt-8 flex justify-center md:justify-start">
-            <Button>FAÇA SEU ORÇAMENTO</Button>
+            <Button>
+
+              <a
+                href="https://form.respondi.app/XN5iIrID"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                FAÇA SEU ORÇAMENTO
+              </a>
+            </Button>
           </div>
         </div>
 
@@ -45,9 +55,10 @@ const HeroBanner = () => {
             alt="Profissional"
             className="max-h-[500px] object-contain"
           />
+
         </div>
-      </div>
-    </Container>
+      </div >
+    </Container >
   );
 };
 
