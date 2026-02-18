@@ -33,7 +33,16 @@ const HeroBanner = () => {
             </p>
 
             <div className="mt-8 flex justify-center md:justify-start">
-              <Button>FAÇA SEU ORÇAMENTO</Button>
+              <Button>
+                
+                 <a 
+    href="https://form.respondi.app/XN5iIrID"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    FAÇA SEU ORÇAMENTO
+  </a>
+              </Button>
             </div>
           </div>
 
