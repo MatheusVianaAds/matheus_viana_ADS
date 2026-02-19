@@ -1,9 +1,8 @@
 import React from 'react'
 
-const Button = ({ children, onClick, className = "" }) => {
+const Button = ({ children, className = "" }) => {
   return (
     <button
-      onClick={onClick}
       className={`
         bg-green-gradient
         hover:from-green-500 

@@ -1,10 +1,10 @@
 const variants = {
-  h1: "text-4xl md:text-5xl font-bold leading-tight",
-  h2: "text-3xl md:text-4xl font-semibold",
-  h3: "text-2xl font-semibold",
-  h4: "text-xl font-medium",
-  p: "text-base md:text-lg text-gray-300",
-  small: "text-sm text-gray-400",
+  h1: "text-4xl/7 md:text-[65px]/13 font-bold font-Darker",
+  h2: "text-3xl/8 md:text-[65px]/13 font-semibold font-Darker",
+  h3: "text-2xl/7 font-semibold font-Darker",
+  h4: "text-xl/7 font-medium font-Darker",
+  p: "text-base/4 md:text-[20px]/5 font-Manrope",
+  small: "text-sm/6 font-Manrope",
   span: "",
 };
 
@@ -13,7 +13,7 @@ export default function Typography({
   children,
   className = "",
 }) {
-    
+
   const Component = as;
 
   return (

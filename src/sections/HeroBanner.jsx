@@ -1,6 +1,6 @@
-import Container from "./Container";
-import Button from "./Button";
-import Typography from "./Typography";
+import Container from "../components/Container";
+import Button from "../components/Button";
+import Typography from "../components/Typography";
 import banner480 from "../assets/banner-480.webp";
 import banner768 from "../assets/banner-768.webp";
 import banner1200 from "../assets/banner-1200.webp";
@@ -10,7 +10,7 @@ import banner1600 from "../assets/banner-1600.webp";
 const HeroBanner = () => {
   return (
     <section className="bg-black-gradient text-white-custom">
-      <Container className="pt-20 pb-8 lg:pb-0">
+      <Container className="pt-10 pb-8 lg:pb-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-center">
 
 
@@ -32,7 +32,7 @@ const HeroBanner = () => {
               alt="Profissional"
               className="w-full max-w-[800px] object-contain"
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="async"
             />
           </div>
@@ -41,7 +41,7 @@ const HeroBanner = () => {
           <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left">
             <Typography
               as="h1"
-              className="text-3xl md:text-5xl font-bold leading-tight"
+              className=" text-white-custom"
             >
               <span className="text-blue-custom">
                 Pare de viver na incerteza no fim do mês,
@@ -49,7 +49,7 @@ const HeroBanner = () => {
               meu trabalho é ajudar você a aumentar seus agendamentos.
             </Typography>
 
-            <Typography as="p" className="mx-auto lg:mx-0 mt-6 text-lg text-gray-200 max-w-xl ">
+            <Typography as="p" className="mx-auto lg:mx-0 mt-6 text-white-custom max-w-xl">
               Atuo como parceiro da sua empresa, tratando seus investimentos
               como se fossem meus, sempre buscando melhores resultados ao
               menor custo possível.
