@@ -17,7 +17,7 @@ const HeroBanner = () => {
           {/* IMAGEM */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <img
-              src={banner1200} // fallback padrão
+              src={banner1600} // fallback padrão
               srcSet={`
                 ${banner480} 480w,
                 ${banner768} 768w,
@@ -38,7 +38,7 @@ const HeroBanner = () => {
           </div>
 
           {/* TEXTO */}
-          <div className="order-2 lg:order-1 flex flex-col justify-center text-center lg:text-left">
+          <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left">
             <Typography
               as="h1"
               className="text-3xl md:text-5xl font-bold leading-tight"
@@ -49,7 +49,7 @@ const HeroBanner = () => {
               meu trabalho é ajudar você a aumentar seus agendamentos.
             </Typography>
 
-            <Typography as="p" className="mt-6 text-lg text-gray-200 max-w-xl">
+            <Typography as="p" className="mx-auto lg:mx-0 mt-6 text-lg text-gray-200 max-w-xl ">
               Atuo como parceiro da sua empresa, tratando seus investimentos
               como se fossem meus, sempre buscando melhores resultados ao
               menor custo possível.
