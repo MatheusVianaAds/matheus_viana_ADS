@@ -24,13 +24,9 @@ const HeroBanner = () => {
                 ${banner1200} 1200w,
                 ${banner1600} 1600w
               `}
-              sizes="
-                (max-width: 576px) 90vw,
-                (max-width: 1200px) 50vw,
-                600px
-              "
+             
               alt="Profissional"
-              className="w-full max-w-[800px] object-contain"
+              className=" max-w-[400px] lg:max-w-full object-contain"
               loading="eager"
               fetchPriority="high"
               decoding="async"

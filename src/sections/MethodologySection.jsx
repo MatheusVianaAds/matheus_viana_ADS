@@ -1,34 +1,20 @@
-import { useEffect, useState } from "react";
 import Container from "../components/Container";
 import Typography from "../components/Typography";
 import MethodCard from "../components/MethodCard";
 import Button from "../components/Button";
+import cards from "../data/methodology.json"
 
 const MethodologySection = () => {
-    const [cards, setCards] = useState([]);
 
-    useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch("/methodology.json");
-                const data = await response.json();
-                setCards(data);
-            } catch (error) {
-                console.error("Erro ao buscar dados:", error);
-            }
-        };
-
-        fetchData();
-    }, []);
 
     return (
         <section className="bg-[#f5f5f5] py-14">
 
-            <Container>
+            <Container className="max-w-[1120px]">
 
                 {/* Título principal */}
                 <div className="text-center mb-16">
-                    <Typography as="h2" className="w-full text-shadow-gray-dark lg:w-[70%] mx-auto ">
+                    <Typography as="h2" className=" text-shadow-gray-dark  mx-auto ">
                         Como vou fazer você lotar sua agenda rapidamente?
                     </Typography>
                 </div>
@@ -61,7 +47,7 @@ const MethodologySection = () => {
 
                 {/* Subtítulo */}
                 <div className="text-center mb-16">
-                    <Typography as="h2" className=" w-full text-gray-dark lg:w-[70%] mx-auto">
+                    <Typography as="h2" className="  text-gray-dark  mx-auto">
                         Como eu trabalho? Como confiar em minha metodologia?
                     </Typography>
                 </div>
@@ -88,11 +74,17 @@ const MethodologySection = () => {
                     </Typography>
                 </div>
 
-                {/* Botão */}
-                <div className="flex justify-center mt-10">
-                    <Button className="px-10 py-4 text-lg">
-                        FAÇA SEU ORÇAMENTO
-                    </Button>
+                <div className="mt-8 flex justify-center">
+
+                    <a
+                        href="https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <Button className="px-10 py-4 text-lg font-semibold cursor-pointer"> FAÇA SEU ORÇAMENTO</Button>
+
+                    </a>
+
                 </div>
 
             </Container>
