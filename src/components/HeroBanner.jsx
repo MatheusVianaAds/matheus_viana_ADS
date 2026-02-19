@@ -1,7 +1,7 @@
 import Container from "./Container";
 import Button from "./Button";
 import Typography from "./Typography";
-import bannerImg from "../assets/banner-teste.webp";
+import bannerImg from "../assets/banner-1200.webp";
 
 const HeroBanner = () => {
   return (
