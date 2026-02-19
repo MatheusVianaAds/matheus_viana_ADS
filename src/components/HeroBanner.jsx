@@ -1,7 +1,11 @@
 import Container from "./Container";
 import Button from "./Button";
 import Typography from "./Typography";
-import bannerImg from "../assets/banner-1200.webp";
+import banner480 from "../assets/banner-480.webp";
+import banner768 from "../assets/banner-768.webp";
+import banner1200 from "../assets/banner-1200.webp";
+import banner1600 from "../assets/banner-1600.webp";
+
 
 const HeroBanner = () => {
   return (
@@ -9,12 +13,27 @@ const HeroBanner = () => {
       <Container className="pt-20 pb-8 lg:pb-0">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-center">
 
-          {/* IMAGEM (aparece primeiro no mobile) */}
+
+          {/* IMAGEM */}
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <img
-              src={bannerImg}
+              src={banner1200} // fallback padrão
+              srcSet={`
+                ${banner480} 480w,
+                ${banner768} 768w,
+                ${banner1200} 1200w,
+                ${banner1600} 1600w
+              `}
+              sizes="
+                (max-width: 576px) 90vw,
+                (max-width: 1200px) 50vw,
+                600px
+              "
               alt="Profissional"
               className="w-full max-w-[800px] object-contain"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
             />
           </div>
 
