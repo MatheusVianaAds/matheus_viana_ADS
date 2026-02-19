@@ -6,7 +6,7 @@ import SolutionSection from "./sections/SolutionSection";
 function App() {
   return (
     <>
-      <HeroBanner />;
+      <HeroBanner />
       <MethodologySection/>
       <AboutSection/>
       <SolutionSection/>
