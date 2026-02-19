@@ -5,7 +5,7 @@ import Typography from "../components/Typography";
 export default function SolutionSection() {
     return (
         <section className="bg-[#F3F4F6] py-24">
-            <Container className="max-w-[1120px]">
+            <Container className="max-w-[1200px]">
                 {/* HEADER */}
                 <div className="text-center mb-16">
                     <Typography as="h2" className="mb-4">
@@ -90,16 +90,7 @@ export default function SolutionSection() {
 
                 {/* CTA */}
                 <div className="mt-8 flex justify-center">
-
-                    <a
-                        href="https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Button className="px-10 py-4 text-lg font-semibold cursor-pointer"> FAÇA SEU ORÇAMENTO</Button>
-
-                    </a>
-
+                    <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
                 </div>
             </Container>
         </section>

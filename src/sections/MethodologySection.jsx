@@ -2,15 +2,35 @@ import Container from "../components/Container";
 import Typography from "../components/Typography";
 import MethodCard from "../components/MethodCard";
 import Button from "../components/Button";
-import cards from "../data/methodology.json"
 
 const MethodologySection = () => {
+
+    const cards = [
+        {
+            "id": 1,
+            "before": "Ninguém entende melhor do negócio do que o dono.",
+            "strong": "Meu papel é aplicar as melhores estratégias",
+            "after": "para aumentar o número de agendamentos."
+        },
+        {
+            "id": 2,
+            "before": "Antes de qualquer anúncio,",
+            "strong": "entendo a fundo a realidade do seu negócio",
+            "after": "o perfil dos pacientes e a situação da sua agenda para criar uma estratégia personalizada e eficiente."
+        },
+        {
+            "id": 3,
+            "before": "",
+            "strong": "Trabalhamos juntos para melhorar seus resultados,",
+            "after": "tratando cada real investido com o mesmo cuidado que eu teria no meu próprio negócio."
+        }
+    ]
 
 
     return (
         <section className="bg-[#f5f5f5] py-14">
 
-            <Container className="max-w-[1120px]">
+            <Container className="max-w-[1200px]">
 
                 {/* Título principal */}
                 <div className="text-center mb-16">
@@ -75,16 +95,7 @@ const MethodologySection = () => {
                 </div>
 
                 <div className="mt-8 flex justify-center">
-
-                    <a
-                        href="https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <Button className="px-10 py-4 text-lg font-semibold cursor-pointer"> FAÇA SEU ORÇAMENTO</Button>
-
-                    </a>
-
+                   <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
                 </div>
 
             </Container>

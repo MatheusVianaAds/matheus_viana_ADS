@@ -24,7 +24,7 @@ const HeroBanner = () => {
                 ${banner1200} 1200w,
                 ${banner1600} 1600w
               `}
-             
+
               alt="Profissional"
               className=" max-w-[400px] lg:max-w-full object-contain"
               loading="eager"
@@ -52,16 +52,7 @@ const HeroBanner = () => {
             </Typography>
 
             <div className="mt-8 flex justify-center lg:justify-start">
-
-              <a
-                href="https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button className="px-10 py-4 text-lg font-semibold cursor-pointer"> FAÇA SEU ORÇAMENTO</Button>
-
-              </a>
-
+              <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
             </div>
           </div>
 
