@@ -17,10 +17,13 @@
     --font-Darker: "Darker Grotesque", sans-serif;
     --font-Manrope: "Manrope", sans-serif;
 
-    /* Gradiente */
+    /* Gradientes */
     --background-image-green-gradient: linear-gradient(180deg,
             #226214,
             #43cc25);
 
+    --background-image-black-gradient: linear-gradient(90deg,
+            #000000,
+            #1b1b1b);
 
 }
