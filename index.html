@@ -8,43 +8,54 @@
   <title>Matheus Viana | ADS </title>
 
 
-  <link rel="preload" as="image" href="./src/assets/banner-1600.webp" type="image/webp" imagesrcset="
-    ./src/assets/banner-480.webp 480w,
-    ./src/assets/banner-768.webp 768w,
-    ./src/assets/banner-1200.webp 1200w,
-    ./src/assets/banner-1600.webp 1600w
-  " imagesizes="(max-width: 576px) 90vw,
-              (max-width: 1200px) 50vw,
-              600px">
-
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-P9QPTPQ4');</script>
-  <!-- End Google Tag Manager -->
-
-  <!-- Meta Pixel Code -->
+  <link rel="preload" as="image" href="/banner.webp" />
   <script>
+  window.addEventListener("load", function () {
+
+    /* ===== GOOGLE TAG MANAGER ===== */
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+
+    })(window, document, 'script', 'dataLayer', 'GTM-P9QPTPQ4');
+
+
+    /* ===== META PIXEL ===== */
     !function (f, b, e, v, n, t, s) {
-      if (f.fbq) return; n = f.fbq = function () {
+      if (f.fbq) return;
+      n = f.fbq = function () {
         n.callMethod ?
           n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
-      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-      n.queue = []; t = b.createElement(e); t.async = !0;
-      t.src = v; s = b.getElementsByTagName(e)[0];
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = true;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = true;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
+
     fbq('init', '683430907343251');
     fbq('track', 'PageView');
-  </script>
-  <!-- End Meta Pixel Code -->
+
+  });
+</script>
   <meta name="facebook-domain-verification" content="zhk8pwbfizg0cxtf589qio2tw81evl" />
 </head>
 

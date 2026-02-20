@@ -4,8 +4,21 @@ import Typography from "../components/Typography";
 
 const HeroBanner = () => {
   return (
-    <section className="bg-black-gradient text-white-custom">
-      <Container className="py-40">
+    <section
+  className="
+    text-white-custom
+    bg-[url('/banner-mobile.png')]
+    lg:bg-[url('/banner.webp')]
+    lg:pt-0
+    bg-cover
+    bg-center
+    bg-no-repeat
+    md:bg-top
+    pt-[45vh]
+    py-9
+  "
+>
+      <Container className="lg:py-40">
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 lg:items-center">
 
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end"></div>
