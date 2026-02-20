@@ -1,13 +1,13 @@
 import Typography from "./Typography";
 
-const MethodCard = ({ before, strong, after }) => {
+const MethodCard = ({ before, strong, after, icon }) => {
   return (
     <div className="
       bg-white/5 
       border-t-4
       border-blue-custom
       rounded-2xl
-      p-8
+      p-6
       backdrop-blur-sm
       hover:scale-[1.02]
       transition-all
@@ -16,7 +16,9 @@ const MethodCard = ({ before, strong, after }) => {
     ">
 
       {/* Ícone mockado */}
-      <div className="w-16 h-16 bg-blue-400/30 rounded-xl mb-6" />
+      <div className="flex items-center justify-center w-28 h-28 bg-blue-custom rounded-xl mb-6 mx-auto ">
+        <img src={icon} alt="" className="h-14 w-14" loading="lazy" />
+      </div>
 
       <Typography as="p" className="text-gray-dark text-2xl">
         {before}{" "}

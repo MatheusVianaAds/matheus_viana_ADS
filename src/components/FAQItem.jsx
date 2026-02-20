@@ -1,17 +1,17 @@
 
 const FAQItem = ({ title, text, isOpen, onToggle }) => {
   return (
-    <li>
+    <li >
       <button
         type="button"
         onClick={onToggle}
-        className="flex w-full items-center justify-between gap-4 py-5 text-left"
+        className="flex w-full items-center justify-between gap-4 py-5 text-left cursor-pointer"
       >
-        <span className="font-medium text-slate-900">
+        <span className="font-medium text-[20px] text-gray-dark">
           {title}
         </span>
 
-        <span className="text-xl font-semibold text-slate-500">
+        <span className="text-[1.4rem] font-semibold text-gray-dark">
           {isOpen ? "–" : "+"}
         </span>
       </button>
@@ -22,7 +22,7 @@ const FAQItem = ({ title, text, isOpen, onToggle }) => {
         }`}
       >
         <div className="overflow-hidden">
-          <p className="text-sm leading-relaxed text-slate-600">
+          <p className="leading-relaxed text-gray-dark">
             {text}
           </p>
         </div>

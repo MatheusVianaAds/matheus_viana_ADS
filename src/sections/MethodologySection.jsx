@@ -7,22 +7,26 @@ const MethodologySection = () => {
 
     const cards = [
         {
-            "id": 1,
-            "before": "Ninguém entende melhor do negócio do que o dono.",
-            "strong": "Meu papel é aplicar as melhores estratégias",
-            "after": "para aumentar o número de agendamentos."
+            id: 1,
+            before: "Ninguém entende melhor do negócio do que o dono.",
+            strong: "Meu papel é aplicar as melhores estratégias",
+            after: "para aumentar o número de agendamentos.",
+            icon: "/icons/entendimento.png"
+
         },
         {
-            "id": 2,
-            "before": "Antes de qualquer anúncio,",
-            "strong": "entendo a fundo a realidade do seu negócio",
-            "after": "o perfil dos pacientes e a situação da sua agenda para criar uma estratégia personalizada e eficiente."
+            id: 2,
+            before: "Antes de qualquer anúncio,",
+            strong: "entendo a fundo a realidade do seu negócio",
+            after: "o perfil dos pacientes e a situação da sua agenda para criar uma estratégia personalizada e eficiente.",
+            icon: "/icons/plano_estrategico.png"
         },
         {
-            "id": 3,
-            "before": "",
-            "strong": "Trabalhamos juntos para melhorar seus resultados,",
-            "after": "tratando cada real investido com o mesmo cuidado que eu teria no meu próprio negócio."
+            id: 3,
+            before: "",
+            strong: "Trabalhamos juntos para melhorar seus resultados,",
+            after: "tratando cada real investido com o mesmo cuidado que eu teria no meu próprio negócio.",
+            icon: "/icons/trabalho_junto.png"
         }
     ]
 
@@ -34,7 +38,7 @@ const MethodologySection = () => {
 
                 {/* Título principal */}
                 <div className="text-center mb-16">
-                    <Typography as="h2" className=" text-shadow-gray-dark  mx-auto ">
+                    <Typography as="h2" className=" text-shadow-gray-dark  max-w-[900px] mx-auto ">
                         Como vou fazer você lotar sua agenda rapidamente?
                     </Typography>
                 </div>
@@ -42,32 +46,47 @@ const MethodologySection = () => {
                 {/* Card azul superior */}
                 <div className="flex justify-center mb-16">
                     <div className="
-            bg-blue-200
+            bg-blue-light-custom
             rounded-2xl
-            px-8
-            py-6
-            max-w-2xl
+            px-14
+            py-10
+            max-w-[880px]
             w-full
             flex
+            flex-col
+            lg:flex-row
             items-center
+            justify-between
             gap-4
-          ">
-                        <div className="w-12 h-12 bg-blue-custom rounded-full" />
+            lg:gap-10
 
-                        <Typography as="p" className=" text-black ">
-                            <strong>NÃO VOU</strong>, esse é o EXATO perfil de cliente que eu <strong>NÃO ACEITO aqui</strong>.
+            text-center
+          ">
+                        <div className="w-20 aspect-square bg-blue-custom rounded-full overflow-hidden flex items-center justify-center">
+                            <img
+                                src="/icons/pare.png"
+                                alt=""
+                                className="w-12 h-12 object-cover"
+                                loading="lazy"
+                            />
+                        </div>
+
+                        <Typography as="custom" className=" text-black-custom text-[27px]/7 font-light ">
+                            <strong className="font-bold">NÃO VOU</strong>, esse é o <strong className="font-bold">EXATO</strong> perfil de cliente que eu <strong className="font-bold">NÃO ACEITO aqui</strong>.
                         </Typography>
+
+
                     </div>
                 </div>
 
                 {/* Divisor */}
                 <div className="flex justify-center mb-16">
-                    <div className="w-24 h-1 bg-blue-custom rounded-full" />
+                    <div className="w-[70px] h-[5px] bg-blue-custom " />
                 </div>
 
                 {/* Subtítulo */}
                 <div className="text-center mb-16">
-                    <Typography as="h2" className="  text-gray-dark  mx-auto">
+                    <Typography as="h3" className="text-gray-dark  mx-auto">
                         Como eu trabalho? Como confiar em minha metodologia?
                     </Typography>
                 </div>
@@ -80,6 +99,7 @@ const MethodologySection = () => {
                             before={card.before}
                             strong={card.strong}
                             after={card.after}
+                            icon={card.icon}
                         />
                     ))}
                 </div>
@@ -95,7 +115,7 @@ const MethodologySection = () => {
                 </div>
 
                 <div className="mt-8 flex justify-center">
-                   <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
+                    <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
                 </div>
 
             </Container>

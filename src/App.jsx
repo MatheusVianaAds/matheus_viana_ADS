@@ -8,7 +8,7 @@ function App() {
   const faqItems = [
     {
       title:
-        "O Google Ads realmente funciona para profi ssionais da área da saúde?",
+        "O Google Ads realmente funciona para profissionais da área da saúde?",
       text: "Sim, funciona, desde que seja feito da forma correta. O Google Ads conecta o seu consultório diretamente com pessoas que já estão procurando ativamente pelo seu serviço. O diferencial está na estratégia: entender o seu público, respeitar as normas do conselho de classe e estruturar campanhas focadas em gerar agendamentos reais, não apenas cliques.",
     },
     {
@@ -17,7 +17,7 @@ function App() {
     },
     {
       title: "Existe garantia de agendamentos ou pacientes?",
-      text: "Não existe garantia de número de pacientes, e qualquer profi ssional que prometa isso não está sendo transparente. O que eu garanto é uma estratégia sólida, tráfego altamente qualifi cado e oportunidades reais de agendamento. A conversão fi nal depende também do atendimento, preço e experiência do paciente.",
+      text: "Não existe garantia de número de pacientes, e qualquer profissional que prometa isso não está sendo transparente. O que eu garanto é uma estratégia sólida, tráfego altamente qualifi cado e oportunidades reais de agendamento. A conversão fi nal depende também do atendimento, preço e experiência do paciente.",
     },
     {
       title: "Preciso investir muito dinheiro em anúncios?",

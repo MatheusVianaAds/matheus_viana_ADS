@@ -10,14 +10,9 @@ const FAQ = ({ items }) => {
   return (
     <section id="faq" className="bg-[#f7f6f3] py-20">
       <Container>
-        <div className="grid gap-12 lg:grid-cols-2">
-
+        <div className="grid gap-12 lg:grid-cols-2 ">
           {/* COLUNA DIREITA — SUPORTE */}
-          <div className="order-1 lg:order-2 flex flex-col gap-6">
-            <span className="text-xs font-semibold uppercase tracking-wide text-slate-500">
-              Ainda indeciso?
-            </span>
-
+          <div className="order-1 lg:order-2 flex flex-col gap-6 text-center lg:text-start">
             <Typography as='h2'>
               Dúvidas frequentes
             </Typography>
@@ -32,7 +27,7 @@ const FAQ = ({ items }) => {
           </div>
 
           {/* COLUNA ESQUERDA — FAQ */}
-          <div className="order-2 lg:order-1 rounded-2xl bg-white p-8 shadow-sm">
+          <div className="order-2 lg:order-1 rounded-2xl bg-white p-4 lg:p-8 shadow-sm">
             <ul className="divide-y">
               {items.map((item, index) => (
                 <FAQItem

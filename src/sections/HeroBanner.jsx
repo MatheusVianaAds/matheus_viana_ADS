@@ -11,7 +11,7 @@ const HeroBanner = () => {
   return (
     <section className="bg-black-gradient text-white-custom">
       <Container className="pt-10 pb-8 lg:pb-0">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 lg:items-center">
 
 
           {/* IMAGEM */}
@@ -26,7 +26,7 @@ const HeroBanner = () => {
               `}
 
               alt="Profissional"
-              className=" max-w-[400px] lg:max-w-full object-contain"
+              className="max-w-[400px] lg:max-w-full object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent)] lg:[mask-image:none]"
               loading="eager"
               fetchPriority="high"
               decoding="async"
@@ -34,7 +34,7 @@ const HeroBanner = () => {
           </div>
 
           {/* TEXTO */}
-          <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left">
+          <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left m">
             <Typography
               as="h1"
               className=" text-white-custom"
