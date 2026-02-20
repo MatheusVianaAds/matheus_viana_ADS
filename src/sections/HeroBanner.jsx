@@ -1,40 +1,17 @@
 import Container from "../components/Container";
 import Button from "../components/Button";
 import Typography from "../components/Typography";
-import banner480 from "../assets/banner-480.webp";
-import banner768 from "../assets/banner-768.webp";
-import banner1200 from "../assets/banner-1200.webp";
-import banner1600 from "../assets/banner-1600.webp";
-
 
 const HeroBanner = () => {
   return (
     <section className="bg-black-gradient text-white-custom">
-      <Container className="pt-10 pb-8 lg:pb-0">
+      <Container className="py-40">
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 lg:items-center">
 
-
-          {/* IMAGEM */}
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
-            <img
-              src={banner1600} // fallback padrão
-              srcSet={`
-                ${banner480} 480w,
-                ${banner768} 768w,
-                ${banner1200} 1200w,
-                ${banner1600} 1600w
-              `}
-
-              alt="Profissional"
-              className="max-w-[400px] lg:max-w-full object-contain [mask-image:linear-gradient(to_bottom,black_60%,transparent)] lg:[mask-image:none]"
-              loading="eager"
-              fetchPriority="high"
-              decoding="async"
-            />
-          </div>
+          <div className="order-1 lg:order-2 flex justify-center lg:justify-end"></div>
 
           {/* TEXTO */}
-          <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left m">
+          <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left ">
             <Typography
               as="h1"
               className=" text-white-custom"
