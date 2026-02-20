@@ -7,7 +7,7 @@ const HeroBanner = () => {
     <section
   className="
     text-white-custom
-    bg-[url('/banner-mobile.png')]
+    bg-[url('/banner-mobile.webp')]
     lg:bg-[url('/banner.webp')]
     lg:pt-0
     bg-cover
