@@ -1,6 +1,6 @@
 
 const Button = ({
-  href = "https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0",
+  href = "https://typebot.co/form-qualification",
   children,
   className = "",
   ...props
