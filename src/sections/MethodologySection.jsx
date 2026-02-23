@@ -71,7 +71,7 @@ const MethodologySection = () => {
                             />
                         </div>
 
-                        <Typography as="custom" className=" text-black-custom text-[27px]/7 font-light ">
+                        <Typography  as="h3" className=" text-black-custom text-[27px]/7 font-light ">
                             <strong className="font-bold">NÃO VOU</strong>, esse é o <strong className="font-bold">EXATO</strong> perfil de cliente que eu <strong className="font-bold">NÃO ACEITO aqui</strong>.
                         </Typography>
 

@@ -6,7 +6,6 @@ const variants = {
   p: "text-base/4 md:text-[20px]/5 font-Manrope",
   small: "text-sm/6 font-Manrope",
   span: "",
-  custom:"font-Manrope"
 };
 
 export default function Typography({

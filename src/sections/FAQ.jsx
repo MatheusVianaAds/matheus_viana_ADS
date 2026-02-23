@@ -27,8 +27,8 @@ const FAQ = ({ items }) => {
           </div>
 
           {/* COLUNA ESQUERDA — FAQ */}
-          <div className="order-2 lg:order-1 rounded-2xl bg-white p-4 lg:p-8 shadow-sm">
-            <ul className="divide-y">
+          <div className="order-2 lg:order-1 rounded-2xl bg-white">
+            <ul className='flex flex-col gap-4'>
               {items.map((item, index) => (
                 <FAQItem
                   key={index}
