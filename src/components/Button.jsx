@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Button = ({
   href = "/Lead_Qualification",
@@ -6,8 +7,8 @@ const Button = ({
   ...props
 }) => {
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className={[
         "inline-flex items-center justify-center",
         "bg-green-gradient",
@@ -25,7 +26,7 @@ const Button = ({
       {...props}
     >
       {children}
-    </a>
+    </Link>
   );
 }
 

@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Container from '../components/Container';
-import FAQItem from '../components/FAQItem';
-import Button from '../components/Button';
-import Typography from '../components/Typography';
+import Container from '@/components/Container';
+import FAQItem from '@/components/FAQItem';
+import Button from '@/components/Button';
+import Typography from '@/components/Typography';
 
 const FAQ = ({ items }) => {
   const [openIndex, setOpenIndex] = useState(null);

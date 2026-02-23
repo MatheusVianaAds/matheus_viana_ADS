@@ -1,6 +1,6 @@
-import Container from "../components/Container";
-import Button from "../components/Button";
-import Typography from "../components/Typography";
+import Container from "@/components/Container";
+import Button from "@/components/Button";
+import Typography from "@/components/Typography";
 
 const HeroBanner = () => {
   return (

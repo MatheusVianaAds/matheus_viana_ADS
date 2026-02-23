@@ -1,6 +1,6 @@
-import Button from "../components/Button";
-import Container from "../components/Container";
-import Typography from "../components/Typography";
+import Button from "@/components/Button";
+import Container from "@/components/Container";
+import Typography from "@/components/Typography";
 
 export default function SolutionSection() {
     return (

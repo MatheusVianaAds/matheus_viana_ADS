@@ -1,4 +1,3 @@
-
 const FAQItem = ({ title, text, isOpen, onToggle }) => {
   return (
     <li >

@@ -1,7 +1,7 @@
-import Container from "../components/Container";
-import Typography from "../components/Typography";
-import MethodCard from "../components/MethodCard";
-import Button from "../components/Button";
+import Container from "@/components/Container";
+import Typography from "@/components/Typography";
+import MethodCard from "@/components/MethodCard";
+import Button from "@/components/Button";
 
 const MethodologySection = () => {
 

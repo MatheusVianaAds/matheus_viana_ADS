@@ -1,5 +1,5 @@
-import Container from "../components/Container";
-import Typography from "../components/Typography";
+import Container from "@/components/Container";
+import Typography from "@/components/Typography";
 
 export default function AboutSection() {
   return (
