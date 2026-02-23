@@ -8,7 +8,6 @@ const Button = ({
   return (
     <a
       href={href}
-      target="_blank"
       className={[
         "inline-flex items-center justify-center",
         "bg-green-gradient",
