@@ -10,7 +10,7 @@ export default function AboutSection() {
           {/* IMAGEM */}
           <div className="flex justify-center mx-auto lg:justify-start max-w-[400px] lg:max-w-full">
             <img
-              src="/banner-1600.webp"
+              src="/about.svg"
               alt="Matheus Viana"
               className="object-contain "
               loading="lazy"

@@ -3,6 +3,7 @@ import MethodologySection from '@/sections/MethodologySection'
 import AboutSection from '@/sections/AboutSection'
 import SolutionSection from '@/sections/SolutionSection'
 import FAQ from '@/sections/FAQ'
+import Footer from '@/components/Footer'
 
 const HomePage = () => {
     const faqItems = [
@@ -35,6 +36,7 @@ const HomePage = () => {
             <AboutSection />
             <SolutionSection />
             <FAQ items={faqItems} />
+            <Footer/>
         </>
     )
 }

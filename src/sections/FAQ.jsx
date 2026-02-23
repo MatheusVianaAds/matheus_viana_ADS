@@ -8,7 +8,7 @@ const FAQ = ({ items }) => {
   const [openIndex, setOpenIndex] = useState(null);
 
   return (
-    <section id="faq" className="bg-[#f7f6f3] py-20">
+    <section id="faq" className="py-20">
       <Container>
         <div className="grid gap-12 lg:grid-cols-2 ">
           {/* COLUNA DIREITA — SUPORTE */}
@@ -22,7 +22,7 @@ const FAQ = ({ items }) => {
               se essa solução faz sentido para o seu negócio.
             </Typography>
             <div>
-                <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
+              <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
             </div>
           </div>
 
