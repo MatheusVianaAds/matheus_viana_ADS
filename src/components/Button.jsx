@@ -1,6 +1,6 @@
 
 const Button = ({
-  href = "https://typebot.co/form-qualification",
+  href = "/Lead_Qualification",
   children,
   className = "",
   ...props
