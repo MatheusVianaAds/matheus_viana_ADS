@@ -11,7 +11,7 @@ const MethodologySection = () => {
             before: "Ninguém entende melhor do negócio do que o dono.",
             strong: "Meu papel é aplicar as melhores estratégias",
             after: "para aumentar o número de agendamentos.",
-            icon: "/icons/entendimento.png"
+            icon: "/icons/entendimento"
 
         },
         {
@@ -19,14 +19,14 @@ const MethodologySection = () => {
             before: "Antes de qualquer anúncio,",
             strong: "entendo a fundo a realidade do seu negócio",
             after: "o perfil dos pacientes e a situação da sua agenda para criar uma estratégia personalizada e eficiente.",
-            icon: "/icons/plano_estrategico.png"
+            icon: "/icons/plano_estrategico"
         },
         {
             id: 3,
             before: "",
             strong: "Trabalhamos juntos para melhorar seus resultados,",
             after: "tratando cada real investido com o mesmo cuidado que eu teria no meu próprio negócio.",
-            icon: "/icons/trabalho_junto.png"
+            icon: "/icons/trabalho_junto"
         }
     ]
 
@@ -64,7 +64,7 @@ const MethodologySection = () => {
           ">
                         <div className="w-20 aspect-square bg-blue-custom rounded-full overflow-hidden flex items-center justify-center">
                             <img
-                                src="/icons/pare.png"
+                                src="/icons/pare.webp"
                                 alt=""
                                 className="w-12 h-12 object-cover"
                                 loading="lazy"

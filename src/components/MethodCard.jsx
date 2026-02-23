@@ -17,7 +17,7 @@ const MethodCard = ({ before, strong, after, icon }) => {
 
       {/* Ícone mockado */}
       <div className="flex items-center justify-center w-28 h-28 bg-blue-custom rounded-xl mb-6 mx-auto ">
-        <img src={icon} alt="" className="h-14 w-14" loading="lazy" />
+        <img src={`${icon}.webp`} alt="" className="h-14 w-14" loading="lazy" />
       </div>
 
       <Typography as="p" className="text-gray-dark text-2xl">
