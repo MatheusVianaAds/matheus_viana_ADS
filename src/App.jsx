@@ -7,7 +7,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/Lead_Qualification" element={<LeadQualificationPage />} />
+        <Route path="/lead-qualification" element={<LeadQualificationPage />} />
       </Routes>
     </BrowserRouter>
   );

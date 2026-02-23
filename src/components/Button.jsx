@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Button = ({
-  href = "/Lead_Qualification",
+  href = "/lead-qualification",
   children,
   className = "",
   ...props
