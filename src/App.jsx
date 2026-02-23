@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "@/pages/homePage";
-import LeadQualificationPage from "@/pages/leadQualificationPage";
+import HomePage from "@/pages/HomePage";
+import LeadQualificationPage from "@/pages/LeadQualificationPage";
 
 function App() {
   return (
