@@ -22,7 +22,7 @@
   <link rel="preload" as="image" href="/banner-mobile.webp" />
 
 
- <!--   Google Tag Manager 
+  <!--  Google Tag Manager  -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
         'gtm.start':
@@ -31,9 +31,9 @@
         j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
           'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-P9QPTPQ4');</script>
-   End Google Tag Manager 
+  <!--   End Google Tag Manager  -->
 
-   Meta Pixel Code 
+  <!--  Meta Pixel Code  -->
   <script>
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
@@ -48,39 +48,8 @@
       'https://connect.facebook.net/en_US/fbevents.js');
     fbq('init', '683430907343251');
     fbq('track', 'PageView');
-  </script> -->
-
-  
-
-  <script>
-    // Inicializa fbq imediatamente para não perder eventos
-    window.fbq = window.fbq || function () { (fbq.q = fbq.q || []).push(arguments) };
-    fbq('init', '683430907343251');
-
-    // Aguarda o load para carregar os scripts pesados
-    window.addEventListener('load', function () {
-      // GTM
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer' ? '&l=' + l : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-P9QPTPQ4');
-
-      // Meta Pixel script
-      var t = document.createElement('script');
-      t.async = true;
-      t.src = 'https://connect.facebook.net/en_US/fbevents.js';
-      document.head.appendChild(t);
-
-      // Track PageView após carregar script
-      fbq('track', 'PageView');
-    });
   </script>
+
 
 
   <meta name="facebook-domain-verification" content="zhk8pwbfizg0cxtf589qio2tw81evl" />
