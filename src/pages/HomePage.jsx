@@ -31,12 +31,14 @@ const HomePage = () => {
     ];
     return (
         <>
-            <HeroBanner />
-            <MethodologySection />
-            <AboutSection />
-            <SolutionSection />
-            <FAQ items={faqItems} />
-            <Footer/>
+            <main>
+                <HeroBanner />
+                <MethodologySection />
+                <AboutSection />
+                <SolutionSection />
+                <FAQ items={faqItems} />
+            </main>
+            <Footer />
         </>
     )
 }
