@@ -5,7 +5,7 @@ import Typography from "@/components/Typography";
 const HeroBanner = () => {
   return (
     <section
-  className="
+      className="
     text-white-custom
     bg-[url('/banner-mobile.webp')]
     lg:bg-[url('/banner.webp')]
@@ -17,11 +17,16 @@ const HeroBanner = () => {
     pt-[45vh]
     py-9
   "
->
+    >
       <Container className="lg:py-40">
         <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 lg:items-center">
 
-          <div className="order-1 lg:order-2 flex justify-center lg:justify-end"></div>
+          <div className="order-1 lg:order-2 flex justify-center lg:justify-end">  <img
+            src="/banner-mobile.webp"
+            alt=""
+            className="invisible w-0 h-0"
+            fetchpriority="high"
+          /></div>
 
           {/* TEXTO */}
           <div className="order-2 lg:order-1 flex flex-col justify-center  text-center lg:text-left ">
