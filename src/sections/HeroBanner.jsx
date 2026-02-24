@@ -11,11 +11,14 @@ const HeroBanner = () => {
     lg:bg-[url('/banner.webp')]
     lg:pt-0
     bg-cover
-    bg-center
     bg-no-repeat
-    md:bg-top
-    pt-[45vh]
-    py-9
+    bg-top
+    pt-[65%]
+    max-h-187.5
+    md:max-h-full
+    lg:max-h-187.5
+    pb-[15%]
+
   "
     >
       <Container className="lg:py-40">
