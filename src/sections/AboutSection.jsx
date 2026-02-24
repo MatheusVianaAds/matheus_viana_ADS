@@ -6,20 +6,20 @@ export default function AboutSection() {
     <section className="bg-black-gradient text-white-custom py-24 lg:py-0 lg:pt-10">
       <Container>
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
+
           {/* IMAGEM */}
-          <div className="flex justify-center mx-auto lg:justify-start max-w-[400px] lg:max-w-full">
+          <div className="flex flex-col justify-end mx-auto lg:justify-end lg:max-w-full h-full">
             <img
               src="/about.webp"
               alt="Matheus Viana"
-              className="object-contain "
+              className="object-contain"
               loading="lazy"
             />
           </div>
 
           {/* TEXTO */}
           <div>
-            <span className="inline-block bg-blue-custom text-white-custom text-sm px-5 py-2 rounded-full mb-6">
+            <span className="inline-block bg-blue-custom text-white-custom px-5 py-2 rounded-2xl mb-6 text-[26px] font-bold font-Manrope">
               Quem está por trás?
             </span>
 
@@ -34,15 +34,15 @@ export default function AboutSection() {
             </Typography>
 
             <Typography as="p" className="mb-4 text-white-custom  leading-relaxed">
-              Eu sei como é se sentir frustrado e viver na incerteza. Mas também sei
+              Eu sei como é se sentir frustrado e <strong className="font-bold">viver na incerteza.</strong> Mas também sei
               exatamente qual caminho trilhar e quais estratégias aplicar para contornar
               essa situação e colocar mais dinheiro no seu bolso, de forma consistente.
             </Typography>
 
             <Typography as="p" className="mb-4 text-white-custom  leading-relaxed">
-              Atuo no mercado da área da saúde, ajudando médicos, dentistas,
-              psicólogos e outros profissionais a aumentarem o número de
-              agendamentos por meio de um planejamento estratégico focado
+              Atuo no mercado da área da saúde, <strong className="font-bold">ajudando médicos, dentistas,
+                psicólogos e outros profissionais a aumentarem o número de
+                agendamentos</strong> por meio de um planejamento estratégico focado
               em alcançar pessoas que realmente estão interessadas no seu serviço.
             </Typography>
 

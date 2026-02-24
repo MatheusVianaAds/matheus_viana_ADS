@@ -19,7 +19,7 @@ const HeroBanner = () => {
   "
     >
       <Container className="lg:py-40">
-        <div className="grid grid-cols-1 lg:grid-cols-2  gap-4 lg:gap-8 lg:items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-8 lg:items-center">
 
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">  <img
             src="/banner-mobile.webp"

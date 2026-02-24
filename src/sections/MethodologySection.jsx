@@ -11,7 +11,8 @@ const MethodologySection = () => {
             before: "Ninguém entende melhor do negócio do que o dono.",
             strong: "Meu papel é aplicar as melhores estratégias",
             after: "para aumentar o número de agendamentos.",
-            icon: "/icons/entendimento"
+            icon: "/icons/entendimento",
+            alt: "entendimento"
 
         },
         {
@@ -19,14 +20,16 @@ const MethodologySection = () => {
             before: "Antes de qualquer anúncio,",
             strong: "entendo a fundo a realidade do seu negócio",
             after: "o perfil dos pacientes e a situação da sua agenda para criar uma estratégia personalizada e eficiente.",
-            icon: "/icons/plano_estrategico"
+            icon: "/icons/plano_estrategico",
+            alt:"plano estratégico"
         },
         {
             id: 3,
             before: "",
             strong: "Trabalhamos juntos para melhorar seus resultados,",
             after: "tratando cada real investido com o mesmo cuidado que eu teria no meu próprio negócio.",
-            icon: "/icons/trabalho_junto"
+            icon: "/icons/trabalho_junto",
+            alt: "trabalho em equipe"
         }
     ]
 
@@ -34,7 +37,7 @@ const MethodologySection = () => {
     return (
         <section className="bg-[#f5f5f5] py-14">
 
-            <Container className="max-w-[1200px]">
+            <Container className="max-w-[1160px]">
 
                 {/* Título principal */}
                 <div className="text-center mb-16">
@@ -59,10 +62,10 @@ const MethodologySection = () => {
             justify-between
             gap-4
             lg:gap-10
-
             text-center
+            lg:text-start
           ">
-                        <div className="w-20 aspect-square bg-blue-custom rounded-full overflow-hidden flex items-center justify-center">
+                        <div className="w-22 aspect-square bg-blue-custom rounded-full overflow-hidden flex items-center justify-center">
                             <img
                                 src="/icons/pare.webp"
                                 alt=""
@@ -71,9 +74,9 @@ const MethodologySection = () => {
                             />
                         </div>
 
-                        <Typography  as="h3" className=" text-black-custom text-[27px]/7 font-light ">
-                            <strong className="font-bold">NÃO VOU</strong>, esse é o <strong className="font-bold">EXATO</strong> perfil de cliente que eu <strong className="font-bold">NÃO ACEITO aqui</strong>.
-                        </Typography>
+                        <p className=" text-black-custom text-[1.71rem]/7 font-light font-Manrope">
+                            <strong className="font-semibold">NÃO VOU</strong>, esse é o <strong className="font-semibold">EXATO</strong> perfil de cliente que eu <strong className="font-semibold">NÃO ACEITO aqui</strong>.
+                        </p>
 
 
                     </div>
@@ -86,20 +89,16 @@ const MethodologySection = () => {
 
                 {/* Subtítulo */}
                 <div className="text-center mb-16">
-                    <Typography as="h3" className="text-gray-dark  mx-auto">
+                    <h2  className="text-gray-dark text-[52px]/10 max-w-[880px] mx-auto font-Darker font-bold">
                         Como eu trabalho? Como confiar em minha metodologia?
-                    </Typography>
+                    </h2>
                 </div>
 
                 {/* Grid de Cards */}
-                <div className="grid md:grid-cols-3 gap-8">
+                <div className="grid lg:grid-cols-3 gap-8">
                     {cards.map((card) => (
                         <MethodCard
-                            key={card.id}
-                            before={card.before}
-                            strong={card.strong}
-                            after={card.after}
-                            icon={card.icon}
+                            {...card}
                         />
                     ))}
                 </div>

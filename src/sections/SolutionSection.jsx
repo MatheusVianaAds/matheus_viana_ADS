@@ -12,13 +12,13 @@ export default function SolutionSection() {
                         Solução que eu ofereço
                     </Typography>
 
-                    <Typography as="p" className="max-w-4xl mx-auto text-gray-dark">
+                    <Typography as="p" className="max-w-4xl mx-auto text-gray-dark font-light">
                         A solução que eu ofereço é simples:{" "}
-                        <span className="text-blue-custom font-semibold">
+                        <strong className="text-blue-custom font-semibold">
                             aumentar o seu número de agendamentos.
-                        </span>{" "}
+                        </strong>{" "}
                         Sou transparente e direto. Ao se tornar parceiro, vou fazer de tudo
-                        para otimizar seu tempo e colocar ainda mais dinheiro no seu bolso.
+                        para <strong className="text-blue-custom font-semibold">otimizar seu tempo e colocar ainda mais dinheiro no seu bolso.</strong>
                         Mas como isso funciona?
                     </Typography>
                 </div>

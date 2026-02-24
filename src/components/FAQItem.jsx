@@ -5,6 +5,7 @@ const FAQItem = ({ title, text, isOpen, onToggle }) => {
         rounded-lg
         transition-all duration-300 ease-in-out transform
         hover:scale-105 hover:shadow-lg
+        ${isOpen? "shadow-lg" : ""}
         
       `}
     >
