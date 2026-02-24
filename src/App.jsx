@@ -1,14 +1,18 @@
+import React, { Suspense } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "@/pages/HomePage";
-import LeadQualificationPage from "@/pages/LeadQualificationPage";
+
+const HomePage = React.lazy(() => import("@/pages/HomePage"));
+const LeadQualificationPage = React.lazy(() => import("@/pages/LeadQualificationPage"));
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/lead-qualification" element={<LeadQualificationPage />} />
-      </Routes>
+      <Suspense fallback={null}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/lead-qualification" element={<LeadQualificationPage />} />
+        </Routes>
+      </Suspense>
     </BrowserRouter>
   );
 }

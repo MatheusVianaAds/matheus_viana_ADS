@@ -15,13 +15,13 @@ const Button = ({
         "hover:from-green-500 hover:to-green-400",
         "text-white-custom",
         "font-semibold",
-        "px-8 py-6",
+        "px-8 py-5",
         "rounded-2xl",
         "shadow-lg",
         "hover:scale-105",
         "transition-all duration-300",
         "btn-personalizado",
-        "w-full max-w-112.5",
+        "w-full max-w-87.5",
         className,
       ].join(" ")}
       {...props}

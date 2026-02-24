@@ -13,10 +13,10 @@ const HeroBanner = () => {
     bg-cover
     bg-no-repeat
     bg-top
-    pt-[65%]
+    pt-[75%]
     max-h-187.5
     md:max-h-full
-    lg:max-h-187.5
+    lg:max-h-190
     pb-[15%]
 
   "
