@@ -37,11 +37,11 @@ const MethodologySection = () => {
     return (
         <section className="bg-[#f5f5f5] py-14">
 
-            <Container className="max-w-[1160px]">
+            <Container className="max-w-290">
 
                 {/* Título principal */}
                 <div className="text-center mb-16">
-                    <Typography as="h2" className=" text-shadow-gray-dark  max-w-[900px] mx-auto ">
+                    <Typography as="h2" className=" text-shadow-gray-dark  max-w-225 mx-auto ">
                         Como vou fazer você lotar sua agenda rapidamente?
                     </Typography>
                 </div>
@@ -53,7 +53,7 @@ const MethodologySection = () => {
             rounded-2xl
             px-14
             py-10
-            max-w-[880px]
+            max-w-220
             w-full
             flex
             flex-col
@@ -84,12 +84,12 @@ const MethodologySection = () => {
 
                 {/* Divisor */}
                 <div className="flex justify-center mb-16">
-                    <div className="w-[70px] h-[5px] bg-blue-custom " />
+                    <div className="w-17.5 h-1.25 bg-blue-custom " />
                 </div>
 
                 {/* Subtítulo */}
                 <div className="text-center mb-16">
-                    <h2  className="text-gray-dark text-[52px]/10 max-w-[880px] mx-auto font-Darker font-bold">
+                    <h2  className="text-gray-dark text-[52px]/10 max-w-220 mx-auto font-Darker font-bold">
                         Como eu trabalho? Como confiar em minha metodologia?
                     </h2>
                 </div>

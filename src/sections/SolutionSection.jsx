@@ -5,7 +5,7 @@ import Typography from "@/components/Typography";
 export default function SolutionSection() {
     return (
         <section className="bg-[#F3F4F6] py-24">
-            <Container className="max-w-[1160px]">
+            <Container className="max-w-290">
                 {/* HEADER */}
                 <div className="text-center mb-16">
                     <Typography as="h2" className="mb-4">
@@ -25,7 +25,7 @@ export default function SolutionSection() {
 
                 <div className="space-y-8">
                     {/* CARD 1 */}
-                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-[250px] grid md:grid-cols-3 items-center lg:gap-8 lg:pr-8 hover:scale-[1.02]">
+                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-62.5 grid md:grid-cols-3 items-center lg:gap-8 lg:pr-8 hover:scale-[1.02]">
 
                         <div className="bg-blue-custom rounded-2xl flex h-full items-center justify-center p-4 lg:p-0">
                             <img src="/icons/ads.png" alt="Anúncios Online" className="h-40 w-40" loading="lazy" />
@@ -46,7 +46,7 @@ export default function SolutionSection() {
                     </div>
 
                     {/* CARD 2 */}
-                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-[250px] grid md:grid-cols-3 items-center lg:gap-8 lg:pl-8 hover:scale-[1.02]">
+                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-62.5 grid md:grid-cols-3 items-center lg:gap-8 lg:pl-8 hover:scale-[1.02]">
 
                         <div className="md:order-2 bg-blue-custom rounded-2xl flex items-center justify-center h-full p-4 lg:p-0 ">
                             <img src="/icons/diagnostico.png" alt="Diagnóstico Comercial" className="h-40 w-40" loading="lazy" />
@@ -67,7 +67,7 @@ export default function SolutionSection() {
                     </div>
 
                     {/* CARD 3 */}
-                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-[250px] grid md:grid-cols-3 items-center lg:gap-8 lg:pr-8 hover:scale-[1.02]">
+                    <div className="bg-white-custom rounded-2xl shadow-md lg:h-62.5 grid md:grid-cols-3 items-center lg:gap-8 lg:pr-8 hover:scale-[1.02]">
 
                         <div className="bg-blue-custom rounded-2xl flex h-full items-center justify-center p-4 lg:p-0">
                             <img src="/icons/data.png" alt="Insight Guiado por Dados" className="h-40 w-40" loading="lazy" />

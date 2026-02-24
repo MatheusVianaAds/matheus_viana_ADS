@@ -50,7 +50,7 @@ const HeroBanner = () => {
             </Typography>
 
             <div className="mt-8 flex justify-center lg:justify-start">
-              <Button className="px-10 py-4 text-lg font-semibold cursor-pointer">FAÇA SEU ORÇAMENTO</Button>
+              <Button className="px-10 py-4 text-lg font-semibold cursor-pointer ">FAÇA SEU ORÇAMENTO</Button>
             </div>
           </div>
 
