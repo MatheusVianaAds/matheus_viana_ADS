@@ -6,17 +6,30 @@ import path from "path";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(),compression({ algorithm: 'brotliCompress' })],
+  plugins: [react(), tailwindcss(), compression({ algorithm: 'brotliCompress' })],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
-   build: {
-   target: "esnext",
-   minify: "esbuild",
-   cssMinify: true,
-   sourcemap: false,
- }
+  build: {
+
+    target: "esnext",
+
+    minify: "esbuild",
+
+    cssCodeSplit: true,
+
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          react: ["react", "react-dom"],
+        }
+      }
+    }
+
+  }
+
+
 })
 

@@ -7,23 +7,6 @@ const HeroBanner = () => {
 
   return (
     <>
-      {/* força preload correto baseado no viewport */}
-      <picture className="hidden">
-        <source
-          media="(min-width:1024px)"
-          srcSet="/banner.avif, /banner.webp"
-          type="image/avif"
-        />
-        <img
-          src="/banner-mobile.avif"
-          srcSet="/banner-mobile.avif 1x, /banner-mobile.webp 1x"
-          fetchpriority="high"
-          loading="eager"
-          decoding="async"
-          alt=""
-        />
-      </picture>
-
       <section
         className="
     text-white-custom
