@@ -67,62 +67,6 @@
       src="https://www.facebook.com/tr?id=683430907343251&ev=PageView&noscript=1" /></noscript>
 
   <div id="root"></div>
-
-  <script>
-    (function () {
-
-      function loadTracking() {
-
-        /* GTM */
-        window.dataLayer = window.dataLayer || [];
-        window.dataLayer.push({
-          'gtm.start': Date.now(),
-          event: 'gtm.js'
-        });
-
-        const gtm = document.createElement("script");
-        gtm.src =
-          "https://www.googletagmanager.com/gtm.js?id=GTM-P9QPTPQ4";
-        gtm.async = true;
-        document.head.appendChild(gtm);
-
-
-        /* META PIXEL */
-        !function (f, b, e, v, n, t, s) {
-          if (f.fbq) return;
-          n = f.fbq = function () {
-            n.callMethod ?
-              n.callMethod.apply(n, arguments) :
-              n.queue.push(arguments)
-          };
-          if (!f._fbq) f._fbq = n;
-          n.push = n;
-          n.loaded = true;
-          n.version = '2.0';
-          n.queue = [];
-          t = b.createElement(e);
-          t.async = true;
-          t.src = v;
-          s = b.getElementsByTagName(e)[0];
-          s.parentNode.insertBefore(t, s);
-
-          fbq('init', '683430907343251');
-          fbq('track', 'PageView');
-
-        }(window, document, 'script',
-          'https://connect.facebook.net/en_US/fbevents.js');
-
-      }
-
-
-      if ("requestIdleCallback" in window) {
-        requestIdleCallback(loadTracking, { timeout: 3000 });
-      } else {
-        setTimeout(loadTracking, 2000);
-      }
-
-    })();
-  </script>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 
