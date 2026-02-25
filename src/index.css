@@ -2,29 +2,44 @@
 
 @theme {
 
-    /* Cores personalizadas */
+  /* Cores personalizadas */
 
-    --color-blue-custom: #3898ef;
-    --color-blue-light-custom:#CAEEFE;
-    --color-black-custom: #000000;
-    --color-gray-dark: #1b1b1b;
-    --color-white-custom: #fff;
+  --color-blue-custom: #3898ef;
+  --color-blue-light-custom: #CAEEFE;
+  --color-black-custom: #000000;
+  --color-gray-dark: #1b1b1b;
+  --color-white-custom: #fff;
 
-    --color-green-dark-custom: #226214;
-    --color-green-light-custom: #43cc25;
+  --color-green-dark-custom: #226214;
+  --color-green-light-custom: #43cc25;
 
-    /* Fontes personalizadas */
-    --font-Darker: "Darker Grotesque", sans-serif;
-    --font-Manrope: "Manrope", sans-serif;
+  /* Fontes personalizadas */
+  --font-Darker: "Darker Grotesque", sans-serif;
+  --font-Manrope: "Manrope", sans-serif;
 
-    /* Gradientes */
-    --background-image-green-gradient: linear-gradient(180deg,
-            #226214,
-            #43cc25);
+  /* Gradientes */
+  --background-image-green-gradient: linear-gradient(180deg,
+      #226214,
+      #43cc25);
 
-    --background-image-black-gradient: linear-gradient(90deg,
-            #000000,
-            #1b1b1b);
+  --background-image-black-gradient: linear-gradient(90deg,
+      #000000,
+      #1b1b1b);
+}
+
+
+body::-webkit-scrollbar {
+  width: 7px;
+
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--color-gray-dark);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-blue-custom);
+  border-radius: 20px;
 }
 
 .btn-personalizado {
@@ -39,12 +54,10 @@
   left: -75%;
   width: 50%;
   height: 100%;
-  background: linear-gradient(
-    120deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(255, 255, 255, 0.4) 50%,
-    rgba(255, 255, 255, 0.1) 100%
-  );
+  background: linear-gradient(120deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.4) 50%,
+      rgba(255, 255, 255, 0.1) 100%);
   transform: skewX(-20deg);
   animation: shine 1.7s infinite;
 }
