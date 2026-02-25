@@ -5,6 +5,9 @@
   <meta charset="UTF-8" />
   <meta name="description"
     content="Pare de viver na incerteza no fim do mês… aumento seus agendamentos… parceiro estratégico… melhores resultados ao menor custo." />
+  <!-- Favicon padrão (32x32) -->
+  <link rel="icon" href="/icons/favicon.svg" type="image/svg+xml">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Matheus Viana | Gestor de Tráfego </title>
 
@@ -59,28 +62,11 @@
       fbq('track', 'PageView');
     }
 
-    function loadFavicon() {
-      var head = document.getElementsByTagName('head')[0];
-
-      var iconLink = document.createElement('link');
-      iconLink.rel = 'icon';
-      iconLink.href = '/icons/favicon.svg';
-      iconLink.type = 'image/svg+xml';
-      head.appendChild(iconLink);
-
-      var shortcutLink = document.createElement('link');
-      shortcutLink.rel = 'shortcut icon';
-      shortcutLink.href = '/icons/favicon.svg';
-      shortcutLink.type = 'image/svg+xml';
-      head.appendChild(shortcutLink);
-    }
-
     // Atrasar por 2.5 segundos após o carregamento da página
     window.addEventListener('load', function () {
       setTimeout(function () {
         loadGTM();
         loadMetaPixel();
-        loadFavicon();
       }, 2500);
     });
   </script>
