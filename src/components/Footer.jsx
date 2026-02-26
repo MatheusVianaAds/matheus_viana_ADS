@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className="flex gap-8 text-blue-500">
 
                     {/* Instagram */}
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Visitar nosso Instagram">
+                    <a href="https://www.instagram.com/omatheus.viana/" target="_blank" rel="noopener noreferrer" aria-label="Visitar nosso Instagram">
                         <svg
                             className="w-9 h-9 hover:scale-110 transition"
                             fill="currentColor"
@@ -20,7 +20,7 @@ const Footer = () => {
                     </a>
 
                     {/* Facebook */}
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"  aria-label="Visitar nosso Facebook">
+                    <a href=" https://www.facebook.com/people/Matheus-Viana/61574620067437" target="_blank" rel="noopener noreferrer"  aria-label="Visitar nosso Facebook">
                         <svg
                             className="w-9 h-9 hover:scale-110 transition"
                             viewBox="0 0 24 24"
@@ -31,7 +31,7 @@ const Footer = () => {
                     </a>
 
                     {/* WhatsApp */}
-                    <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"   aria-label="Falar conosco pelo WhatsApp">
+                    <a href="https://api.whatsapp.com/send/?phone=5511975099618&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer"   aria-label="Falar conosco pelo WhatsApp">
                         <svg
                             className="w-9 h-9 hover:scale-110 transition"
                             fill="currentColor"

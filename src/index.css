@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+
+
 @theme {
 
   /* Cores personalizadas */
@@ -27,10 +29,8 @@
       #1b1b1b);
 }
 
-
 body::-webkit-scrollbar {
   width: 7px;
-
 }
 
 body::-webkit-scrollbar-track {

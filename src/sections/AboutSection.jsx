@@ -23,7 +23,7 @@ export default function AboutSection() {
 
           {/* TEXTO */}
           <div>
-            <span className="inline-block bg-blue-custom text-white-custom px-5 py-2 rounded-2xl mb-6 text-[26px] font-bold font-Manrope">
+            <span className="inline-block bg-blue-custom text-white-custom px-5 py-2 rounded-2xl mb-6 text-[26px] font-bold font-Manrope align-middle">
               Quem está por trás?
             </span>
 
