@@ -3,17 +3,21 @@ import Typography from "@/components/Typography";
 
 export default function AboutSection() {
   return (
-    <section className="bg-black-gradient text-white-custom py-24 lg:py-0 lg:pt-10">
+    <section className="bg-black-custom lg:bg-black-gradient text-white-custom py-6 lg:py-0 lg:pt-10">
       <Container>
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid lg:grid-cols-2 gap-0 lg:gap-12 items-center">
 
           {/* IMAGEM */}
           <div className="flex flex-col justify-end mx-auto lg:justify-end lg:max-w-full h-full">
             <img
-              src="/about.webp"
+              src="/about.avif"
               alt="Matheus Viana"
-              className="object-contain"
               loading="lazy"
+              className="
+      object-contain
+      mask-image:linear-gradient(to_bottom,transparent_0%,black_20%,black_80%,transparent_100%)]
+      [-webkit-mask-image:linear-gradient(to_top,transparent_0%,black_20%,black_80%,transparent_100%)]
+    "
             />
           </div>
 

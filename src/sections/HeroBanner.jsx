@@ -19,7 +19,7 @@ const HeroBanner = () => {
     pt-[75%]
     max-h-187.5
     md:max-h-full
-    lg:max-h-190
+    lg:max-h-200
     pb-[15%]
 
   "
