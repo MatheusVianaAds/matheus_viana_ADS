@@ -36,15 +36,14 @@ const HeroBanner = () => {
                 className=" text-white-custom"
               >
                 <span className="text-blue-custom">
-                  Pare de viver na incerteza no fim do mês,
+                  Pare de viver na incerteza no fim do mês
                 </span>{" "}
-                meu trabalho é ajudar você a aumentar seus agendamentos.
+                e lote sua agenda com pacientes particulares.
               </Typography>
 
               <Typography as="p" className="mx-auto lg:mx-0 mt-6 text-white-custom max-w-xl">
-                Atuo como parceiro da sua empresa, tratando seus investimentos
-                como se fossem meus, sempre buscando melhores resultados ao
-                menor custo possível.
+                Seu futuro paciente está no Google agora, buscando exatamente o que você oferece. 
+                O problema é que hoje ele encontra o seu concorrente antes de encontrar você. Meu trabalho é ajudar você a inverter o jogo.
               </Typography>
 
               <div className="mt-8 flex justify-center lg:justify-start">
